@@ -1,0 +1,29 @@
+
+@media (max-width: 768px) {
+    .portfolio-modal .close-modal
+    {
+        display: none;
+    }
+}
+
+
+.btn-xl2 {
+    color: #fff;
+    background-color: #617fde;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 2px;
+}
+
+.btn-xl2:hover,
+.btn-xl2:focus,
+.btn-xl2:active,
+.btn-xl2.active,
+.open .dropdown-toggle.btn-xl2 {
+    color: blue;
+    background-color: #fff;
+    border-color: #617fde;
+}
