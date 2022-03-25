@@ -16,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'saniet70@hotmail.com'; 
+$to = 'emailparaenviar@dominio.com'; 
 $email_subject = "Contacto desde tu web fullestucos:  $name";
 $email_body = "Haz recibido un mensaje desde tu web!\n\n"."Estos son los detalles:\n\nNombre: $name\n\nEmail: $email_address\n\nTeléfono: $phone\n\nMensaje:\n$message";
 $headers = "From: nocontestar@fullestucos.cl\n"; 
